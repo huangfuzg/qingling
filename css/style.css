@@ -1557,3 +1557,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+
+.map iframe{
+	margin:0em 0 1em;
+	width:100%;
+	min-height:300px;
+	border:none;
+}
