@@ -7,7 +7,7 @@ app.get('/',function(req,res){
 app.get('/index',function(req,res){
     res.sendFile(__dirname+'/'+"index.html");
 })
-app.get('/p',function(req,res){
+app.get('/product',function(req,res){
     res.sendFile(__dirname+'/'+"p.html");
 })
 

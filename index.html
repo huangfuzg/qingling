@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/icon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -758,14 +758,14 @@
   <script src="js/main.js"></script>
   <script type="text/javascript">
     function go(name){
-      window.location.href='product?'+name;
+      window.location.href='product?type='+name;
     }
     $(".portfolio-info a").click(function(){
       var name = $(this).text();
       var name_id = {"America ac power cord":"04","Australia ac power cord":"07","UK ac power cord":"06","Europe ac power cord":"01","Brazil ac power cord":"03","Japan ac power cord":"05","China ac power cord":"00","Italy ac power cord":"02"};
       // console.log(name.toLowerCase().replace(new RegExp(" ","gm"),"_"));
-      console.log(name_id[name]);
-      // go(name);
+      // console.log(name_id[name]);
+      go(name_id[name]);
     })
   </script>
 </body>
