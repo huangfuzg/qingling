@@ -28,7 +28,8 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="PgwSlideshow/pgwslideshow.css">
+  <link rel="stylesheet" href="PgwSlideshow/pgwslideshow.min.css">
   <style>
     #header{
       position: relative;
@@ -87,100 +88,23 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-  
+
   <div id="product" class="section-container p-t-20">
     <!-- BEGIN container -->
     <div class="container">
         <!-- BEGIN breadcrumb -->
-      <ul class="breadcrumb m-b-10 f-s-12">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Mobile Phone</a></li>
-          <li><a href="#">Apple</a></li>
-          <li class="active">iPhone 6S Plus</li>
-      </ul>
+
       <!-- END breadcrumb -->
-      
+      <ul class="pgwSlideshow">
+          <li><img src="data/imgs/ac_power/china_ac_power/picture/model1.jpg" alt="" data-description=""></li>
+          <li><img src="data/imgs/ac_power/china_ac_power/picture/model3.jpg" alt="" data-description=""></li>
+          <li><img src="data/imgs/ac_power/china_ac_power/picture/model5.jpg" alt="" data-description=""></li>
+          <!-- <li><img src="data/imgs/ac_power/china_ac_power/picture/model1.jpg" alt="" data-description=""></li> -->
+      </ul>
       <!-- BEGIN product -->
       <div class="product">
           <!-- BEGIN product-detail -->
-          <div class="product-detail">
-              <!-- BEGIN product-image -->
-              <div class="product-image">
-                  <!-- BEGIN product-thumbnail -->
-                  <div class="product-thumbnail">
-                      <ul class="product-thumbnail-list">
-                          <li class="active"><a href="#" data-click="show-main-image" data-url="img/product/p1.png"><img src="img/product/p1.png" alt="" /></a></li>
-                          <li><a href="#" data-click="show-main-image" data-url="img/product/p2.png"><img src="img/product/p2.png" alt="" /></a></li>
-                          <li><a href="#" data-click="show-main-image" data-url="img/product/p3.png"><img src="img/product/p3.png" alt="" /></a></li>
-                          <li><a href="#" data-click="show-main-image" data-url="img/product/p4.png"><img src="img/product/p4.png" alt="" /></a></li>                        
-                      </ul>
-                  </div>
-                  <!-- END product-thumbnail -->
-                  <!-- BEGIN product-main-image -->
-                  <div class="product-main-image" data-id="main-image">
-                      <img src="img/product/p1.png" alt="" />
-                  </div>
-                  <!-- END product-main-image -->
-              </div>
-              <!-- END product-image -->
-              <!-- BEGIN product-info -->
-              <div class="product-info">
-                  <!-- BEGIN product-info-header -->
-                  <div class="product-info-header">
-                      <h1 class="product-title"><span class="label label-success">China</span> power cord </h1>
-                      <ul class="product-category">
-                          <li><a href="#">iPhone</a></li>
-                          <li>/</li>
-                          <li><a href="#">mobile phone</a></li>
-                          <li>/</li>
-                          <li><a href="#">electronics</a></li>
-                          <li>/</li>
-                          <li><a href="#">lifestyle</a></li>
-                      </ul>
-                  </div>
-                  <!-- END product-info-header -->
-                  <!-- BEGIN product-warranty -->
-                  <div class="product-warranty">
-                      <div class="pull-right">Availability: In stock</div>
-                      <div><b>1 Year</b> Local Manufacturer Warranty</div>
-                  </div>
-                  <!-- END product-warranty -->
-                  <!-- BEGIN product-info-list -->
-                  <ul class="product-info-list">
-                      <li><i class="fa fa-circle"></i> 5.5" Retina HD Display with 3D Touch</li>
-                      <li><i class="fa fa-circle"></i> Fingerprint-resistant oleophobic coating</li>
-                      <li><i class="fa fa-circle"></i> A9 chip with 64-bit</li>
-                      <li><i class="fa fa-circle"></i> Ultrafast 4G LTE Advanced wireless</li>
-                      <li><i class="fa fa-circle"></i> New 12-megapixel iSight camera</li>
-                      <li><i class="fa fa-circle"></i> 4k video recording</li>
-                      <li><i class="fa fa-circle"></i> iOS 9 with Touch ID and Apple Pay</li>
-                  </ul>
-                  <!-- END product-info-list -->
-                  <!-- BEGIN product-social -->
-                  <div class="product-social">
-                      <ul>
-                          <li><a href="javascript:;" class="facebook" data-toggle="tooltip" data-trigger="hover" data-title="Facebook" data-placement="top"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="javascript:;" class="twitter" data-toggle="tooltip" data-trigger="hover" data-title="Twitter" data-placement="top"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="javascript:;" class="google-plus" data-toggle="tooltip" data-trigger="hover" data-title="Google Plus" data-placement="top"><i class="fa fa-google-plus"></i></a></li>
-                          <li><a href="javascript:;" class="whatsapp" data-toggle="tooltip" data-trigger="hover" data-title="Whatsapp" data-placement="top"><i class="fa fa-whatsapp"></i></a></li>
-                          <li><a href="javascript:;" class="tumblr" data-toggle="tooltip" data-trigger="hover" data-title="Tumblr" data-placement="top"><i class="fa fa-tumblr"></i></a></li>
-                      </ul>
-                  </div>
-                  <!-- END product-social -->
-                  <!-- BEGIN product-purchase-container -->
-                  <div class="product-purchase-container">
-                      <div class="product-discount">
-                          <span class="discount">$869.00</span>
-                      </div>
-                      <div class="product-price">
-                          <div class="price">$749.00</div>
-                      </div>
-                      <button class="btn btn-inverse btn-lg" type="submit">ADD TO CART</button>
-                  </div>
-                  <!-- END product-purchase-container -->
-              </div>
-              <!-- END product-info -->
-          </div>
+
           <!-- END product-detail -->
           <div class="product-tab">
               <!-- BEGIN #product-tab -->
@@ -496,6 +420,10 @@
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <script src="PgwSlideshow/pgwslideshow.js"></script>
+  <script src="PgwSlideshow/pgwslideshow.min.js">
+
+  </script>
 
   <!-- Template Main Javascript File -->
   <!-- <script src="js/main.js"></script> -->
@@ -504,6 +432,12 @@
       $(document).ready(function() {
           App.init();
           console.log("App is running");
+          $.getJSON("data/data.json",function(result){
+            console.log(result)
+          });
+
+    $('.pgwSlideshow').pgwSlideshow();
+
       });
   </script>
 <script>
