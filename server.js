@@ -7,10 +7,12 @@ app.get('/',function(req,res){
 app.get('/index',function(req,res){
     res.sendFile(__dirname+'/'+"index.html");
 })
+app.get('/line',function(req,res){
+    res.sendFile(__dirname+'/'+"product.html");
+})
 app.get('/product',function(req,res){
     res.sendFile(__dirname+'/'+"p.html");
 })
-
 
 var server = app.listen(8094,'0.0.0.0',function(){
     var host = server.address().address

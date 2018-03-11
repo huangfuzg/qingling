@@ -1,0 +1,74 @@
+[{
+	"id":"00",
+	"name":"QL-116",
+
+	"imgurl": [
+		"/imgs/wtca/QL-116/imgs/1.jpg",
+		"/imgs/wtca/QL-116/imgs/2.jpg",
+		"/imgs/wtca/QL-116/imgs/3.jpg",
+		"/imgs/wtca/QL-116/imgs/4.jpg",
+		"/imgs/wtca/QL-116/imgs/5.jpg",
+		"/imgs/wtca/QL-116/imgs/6.jpg"],
+
+	"parameter": [""]
+},
+{
+	"id":"01",
+	"name":"QL-C102",
+
+	"imgurl": [
+		"/imgs/wtca/QL-C102/imgs/1.jpg",
+		"/imgs/wtca/QL-C102/imgs/2.jpg",
+		"/imgs/wtca/QL-C102/imgs/3.jpg",
+		"/imgs/wtca/QL-C102/imgs/4.jpg",
+		"/imgs/wtca/QL-C102/imgs/5.jpg",
+		"/imgs/wtca/QL-C102/imgs/6.jpg",
+		"/imgs/wtca/QL-C102/imgs/7.jpg",
+		"/imgs/wtca/QL-C102/imgs/8.jpg",
+		"/imgs/wtca/QL-C102/imgs/9.jpg"],
+
+	"parameter": ["/imgs/wtca/QL-C102/parameter/1.jpg"]
+},
+{
+	"id":"02",
+	"name":"QL-103",
+
+	"imgurl": [
+		"/imgs/wtca/QL-103/imgs/1.jpg",
+		"/imgs/wtca/QL-103/imgs/2.jpg",
+		"/imgs/wtca/QL-103/imgs/3.jpg",
+		"/imgs/wtca/QL-103/imgs/4.jpg",
+		"/imgs/wtca/QL-103/imgs/5.jpg",
+		"/imgs/wtca/QL-103/imgs/6.jpg",
+		"/imgs/wtca/QL-103/imgs/7.jpg",
+		"/imgs/wtca/QL-103/imgs/8.jpg",
+		"/imgs/wtca/QL-103/imgs/9.jpg",
+		"/imgs/wtca/QL-103/imgs/10.jpg"],
+
+	"parameter": ["/imgs/wtca/QL-103/parameter/1.jpg"]
+},
+{
+	"id":"03",
+	"name":"QL-104",
+
+	"imgurl": [
+		"/imgs/wtca/QL-104/imgs/1.jpg",
+		"/imgs/wtca/QL-104/imgs/2.jpg",
+		"/imgs/wtca/QL-104/imgs/3.jpg",
+		"/imgs/wtca/QL-104/imgs/4.jpg",
+		"/imgs/wtca/QL-104/imgs/5.jpg",
+		"/imgs/wtca/QL-104/imgs/6.jpg",
+		"/imgs/wtca/QL-104/imgs/7.jpg",
+		"/imgs/wtca/QL-104/imgs/8.jpg",
+		"/imgs/wtca/QL-104/imgs/9.jpg",
+		"/imgs/wtca/QL-104/imgs/10.jpg",
+		"/imgs/wtca/QL-104/imgs/11.jpg",
+		"/imgs/wtca/QL-104/imgs/12.jpg",
+		"/imgs/wtca/QL-104/imgs/13.jpg",
+		"/imgs/wtca/QL-104/imgs/14.jpg",
+		"/imgs/wtca/QL-104/imgs/15.jpg",
+		"/imgs/wtca/QL-104/imgs/16.jpg"],
+
+	"parameter": ["/imgs/wtca/QL-104/parameter/1.jpg"]
+}
+]
