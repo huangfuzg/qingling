@@ -35,13 +35,14 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header">
+  <header id="header" >
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">QL</a></h1>
+        <!-- <h1><a href="#intro" class="scrollto">QL</a></h1> -->
+        <!-- <img src="img/logo.png"  alt=""> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <a href="#intro"><img src="img/logo.png" height="62px" alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -66,11 +67,11 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url('img/intro-carousel/1.jpg');">
+          <div class="carousel-item active" style="background-image: url('img/1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Welcome to QING LING</h2>
-                <p>We mainly exports kinds of ac power cord ,salt power cod ,patch
+                <p>We mainly exports kinds of ac power cord ,salt power cord ,patch
                   cord,VGA cable,USB cable,Networking cable and some industrial
                   customer’s products and so on to all over the world for long term</p>
                 <a href="#about" class="btn-get-started scrollto">MORE INFO</a>
@@ -344,8 +345,32 @@
               <div class="portfolio-wrap">
                 <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4><a href="#">South ac power cord</a></h4>
-                  <p>South ac power cord</p>
+                  <h4><a href="#">Japan ac power cord</a></h4>
+                  <p>Japan ac power cord</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ac_power_card wow fadeInUp">
+            <div class="catalog">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4><a href="#">China ac power cord</a></h4>
+                  <p>China ac power cord</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ac_power_card wow fadeInUp">
+            <div class="catalog">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4><a href="#">Italy ac power cord</a></h4>
+                  <p>Italy ac power cord</p>
                 </div>
               </div>
             </div>
@@ -356,8 +381,8 @@
               <div class="portfolio-wrap">
                 <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4><a href="#">Teflon cable/electrical appliance cable</a></h4>
-                  <p>Teflon cable/electrical appliance cable</p>
+                  <h4><a href="#">Teflon/electrical cable</a></h4>
+                  <p>Teflon/electrical appliance cable</p>
                 </div>
               </div>
             </div>
@@ -644,12 +669,12 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
+          <div class="col-lg-4 col-md-6 footer-info">
             <h3>QingLing</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
@@ -660,7 +685,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Unit 1602 Beverley Commercial Centre <br>
@@ -682,13 +707,13 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -696,17 +721,17 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        &copy; Copyright <strong>qingling China 2018</strong>.
       </div>
-      <div class="credits">
-        <!--
+      <!-- <div class="credits">
+        '''
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
+        '''
         Best <a href="">Bootstrap Templates</a> by BootstrapMade
-      </div>
+      </div> -->
     </div>
   </footer><!-- #footer -->
 
@@ -731,6 +756,18 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+    function go(name){
+      window.location.href='product?'+name;
+    }
+    $(".portfolio-info a").click(function(){
+      var name = $(this).text();
+      var name_id = {"America ac power cord":"04","Australia ac power cord":"07","UK ac power cord":"06","Europe ac power cord":"01","Brazil ac power cord":"03","Japan ac power cord":"05","China ac power cord":"00","Italy ac power cord":"02"};
+      // console.log(name.toLowerCase().replace(new RegExp(" ","gm"),"_"));
+      console.log(name_id[name]);
+      // go(name);
+    })
+  </script>
 
 </body>
 </html>
