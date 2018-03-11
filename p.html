@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/icon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -24,23 +24,23 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="PgwSlideshow/pgwslideshow.css">
-  <link rel="stylesheet" href="PgwSlideshow/pgwslideshow.min.css">
+  <link href="css/pgwslideshow.css" rel="stylesheet">
+  <link href="css/pgwslideshow.min.css" rel="stylesheet">
   <style>
     #header{
       position: relative;
-      left: 0;
+      /* left: 0;
       top: 0;
       right: 0;
       transition: all 0.5s;
       z-index: 997;
       background: rgba(0, 0, 0, 0.9);
       padding: 20px 0;
-      height: 72px;
+      height: 72px; */
     }
     .breadcrumb>li+li:before {
       padding: 0 5px;
@@ -61,6 +61,11 @@
       padding: 0 0 15px;
       line-height: 20px;
   }
+  @media (max-width: 768px) {
+  .image img{
+    width: 100%
+  }
+}
   </style>
 </head>
 
@@ -69,13 +74,14 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header">
+  <header id="header" >
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">QL</a></h1>
+        <!-- <h1><a href="#intro" class="scrollto">QL</a></h1> -->
+        <!-- <img src="img/logo.png"  alt=""> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <a href="#intro"><img src="img/logo.png" height="62px" alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -93,14 +99,17 @@
     <!-- BEGIN container -->
     <div class="container">
         <!-- BEGIN breadcrumb -->
+      <ul class="breadcrumb m-b-10 f-s-12">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
 
-      <!-- END breadcrumb -->
-      <ul class="pgwSlideshow">
-          <li><img src="data/imgs/ac_power/china_ac_power/picture/model1.jpg" alt="" data-description=""></li>
-          <li><img src="data/imgs/ac_power/china_ac_power/picture/model3.jpg" alt="" data-description=""></li>
-          <li><img src="data/imgs/ac_power/china_ac_power/picture/model5.jpg" alt="" data-description=""></li>
-          <!-- <li><img src="data/imgs/ac_power/china_ac_power/picture/model1.jpg" alt="" data-description=""></li> -->
+
       </ul>
+      <!-- END breadcrumb -->
+      <!-- <ul class="pgwSlideshow">
+
+
+      </ul> -->
       <!-- BEGIN product -->
       <div class="product">
           <!-- BEGIN product-detail -->
@@ -110,7 +119,6 @@
               <!-- BEGIN #product-tab -->
               <ul id="product-tab" class="nav nav-tabs">
                   <li class="active"><a href="#product-desc" data-toggle="tab">Product Description</a></li>
-                  <li class=""><a href="#product-info" data-toggle="tab">Additional Information</a></li>
                   <!-- <li class=""><a href="#product-reviews" data-toggle="tab">Rating & Reviews (5)</a></li> -->
               </ul>
               <!-- END #product-tab -->
@@ -119,213 +127,11 @@
                   <!-- BEGIN #product-desc -->
                   <div class="tab-pane fade active in" id="product-desc">
                       <!-- BEGIN product-desc -->
-                      <div class="product-desc">
-                          <div class="image">
-                              <img src="img/product/c1.png" alt="" />
-                          </div>
-                          <div class="desc">
-                              <h4>Material Specifications</h4>
-                              <ul class="product-info-list1">
-                                <li><i class="fa fa-circle"></i> 227IEC42(RVB) 2×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC42(RVB) 2×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52(RVV) 2×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52(RVV) 2×0.75mm²  6A250V</li>
-                              </ul>
-                          </div>
-                      </div>
-                      <!-- END product-desc -->
-                      <!-- BEGIN product-desc -->
-                      <div class="product-desc right">
-                          <div class="image">
-                              <img src="img/product/c2.png" alt="" />
-                          </div>
-                          <div class="desc">
-                              <h4>Material Specifications</h4>
-                              <ul class="product-info-list2">
-                                <li><i class="fa fa-circle"></i> 227IEC52(RVV) 2×0.75mm² 6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53(RVV) 2×0.75mm² 6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53(RVV) 2×1.0mm²  10A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC42(RVB) 2×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC42(RVB) 2×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52(RVV) 2×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52(RVV) 2×0.75mm²  6A250V</li>
-                              </ul>
 
-                          </div>
-                      </div>
-                      <!-- END product-desc -->
-                      <!-- BEGIN product-desc -->
-                      <div class="product-desc">
-                          <div class="image">
-                              <img src="img/product/c3.png" alt="" />
-                          </div>
-                          <div class="desc">
-                              <h4>Material Specifications</h4>
-                              <ul class="product-info-list1">
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×1.0mm²   10A250V</li>
-                              </ul>
-                          </div>
-                      </div>
-                      <!-- END product-desc -->
-                      <!-- BEGIN product-desc -->
-                      <div class="product-desc right">
-                          <div class="image">
-                             <img src="img/product/c4.png" alt="" />
-                          </div>
-                          <div class="desc">
-                              <h4>Material Specifications</h4>
-                              <ul class="product-info-list2">
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×1.0mm²   10A250V</li>
-                              </ul>
-                          </div>
-                      </div>
-                      <!-- END product-desc -->
-                      <!-- BEGIN product-desc -->
-                      <div class="product-desc">
-                          <div class="image">
-                              <img src="img/product/c5.png" alt="" />
-                          </div>
-                          <div class="desc">
-                              <h4>Material Specifications</h4>
-                              <ul class="product-info-list1">
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.5mm²   6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC52（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> 227IEC53（RVV）3×1.0mm²   10A250V</li>
-                                <li><i class="fa fa-circle"></i> RX 300/300V    3×0.75mm²  6A250V</li>
-                                <li><i class="fa fa-circle"></i> RX 300/300V    3×1.0mm²   10A250V</li>
-                              </ul>
-                          </div>
-                      </div>
+
                       <!-- END product-desc -->
                   </div>
                   <!-- END #product-desc -->
-                  <!-- BEGIN #product-info -->
-                  <div class="tab-pane fade" id="product-info">
-                      <!-- BEGIN table-responsive -->
-                      <div class="table-responsive">
-                          <!-- BEGIN table-product -->
-                          <table class="table table-product table-striped">
-                              <thead>
-                                  <tr>
-                                      <th></th>
-                                      <th>iPhone 6s</th>
-                                      <th>iPhone 6s Plus</th>
-                                  </tr>
-                              </thead>
-                              <tbody>
-                                  <tr>
-                                      <td class="field">Capacity</td>
-                                      <td>
-                                          16GB<br />
-                                          64GB<br />
-                                          128GB
-                                      </td>
-                                      <td>
-                                          16GB<br />
-                                          64GB<br />
-                                          128GB
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td class="field">Weight and Dimensions</td>
-                                      <td>
-                                          5.44 inches (138.3 mm) x 2.64 inches (67.1 mm) x 0.28 inch (7.1 mm)<br />
-                                          Weight: 5.04 ounces (143 grams)
-                                      </td>
-                                      <td>
-                                          6.23 inches (158.2 mm) x 3.07 inches (77.9 mm) x 0.29 inch (7.3 mm)<br />
-                                          Weight: 6.77 ounces (192 grams)
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td class="field">Display</td>
-                                      <td>
-                                          Retina HD display with 3D Touch<br />
-                                          4.7-inch (diagonal) LED-backlit widescreen<br />
-                                          1334-by-750-pixel resolution at 326 ppi<br />
-                                          1400:1 contrast ratio (typical)<br />
-                                          <br />
-                                          <b>Both models:</b><br />
-                                          500 cd/m2 max brightness (typical)<br />
-                                          Full sRGB standard<br />
-                                          Dual-domain pixels for wide viewing angles<br />
-                                          Fingerprint-resistant oleophobic coating on front<br />
-                                          Support for display of multiple languages and characters simultaneously<br />
-                                          Display Zoom<br />
-                                          Reachability
-                                      </td>
-                                      <td>
-                                          Retina HD display with 3D Touch<br />
-                                          5.5-inch (diagonal) LED-backlit widescreen<br />
-                                          1920-by-1080-pixel resolution at 401 ppi<br />
-                                          1300:1 contrast ratio (typical)
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td class="field">Chip</td>
-                                      <td colspan="2">
-                                          A9 chip with 64-bit architecture Embedded M9 motion coprocessor
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td class="field">iSight Camera</td>
-                                      <td colspan="2">
-                                          New 12-megapixel iSight camera with 1.22µ pixels<br />
-                                          Live Photos<br />
-                                          Autofocus with Focus Pixels<br />
-                                          Optical image stabilization (iPhone 6s Plus only)<br />
-                                          True Tone flash<br />
-                                          Panorama (up to 63 megapixels)<br />
-                                          Auto HDR for photos<br />
-                                          Exposure control<br />
-                                          Burst mode<br />
-                                          Timer mode<br />
-                                          ƒ/2.2 aperture<br />
-                                          Five-element lens<br />
-                                          Hybrid IR filter<br />
-                                          Backside illumination sensor<br />
-                                          Sapphire crystal lens cover<br />
-                                          Auto image stabilization<br />
-                                          Improved local tone mapping<br />
-                                          Improved noise reduction<br />
-                                          Face detection<br />
-                                          Photo geotagging
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td class="field">Video Recording</td>
-                                      <td colspan="2">
-                                          4K video recording (3840 by 2160) at 30 fps<br />
-                                          1080p HD video recording at 30 fps or 60 fps<br />
-                                          720p HD video recording at 30 fps<br />
-                                          Optical image stabilization for video (iPhone 6s Plus only)<br />
-                                          True Tone flash<br />
-                                          Slo-mo video support for 1080p at 120 fps and 720p at 240 fps<br />
-                                          Time-lapse video with stabilization<br />
-                                          Cinematic video stabilization (1080p and 720p)<br />
-                                          Continuous autofocus video<br />
-                                          Improved noise reduction<br />
-                                          Take 8MP still photos while recording 4K video<br />
-                                          Playback zoom<br />
-                                          3x zoom<br />
-                                          Face detection<br />
-                                          Video geotagging
-                                      </td>
-                                  </tr>
-                              </tbody>
-                          </table>
-                          <!-- END table-product -->
-                      </div>
-                      <!-- END table-responsive -->
-                  </div>
-                  <!-- END #product-info -->
 
               </div>
               <!-- END #product-tab-content -->
@@ -338,12 +144,12 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
+          <div class="col-lg-4 col-md-6 footer-info">
             <h3>QingLing</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
@@ -354,7 +160,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Unit 1602 Beverley Commercial Centre <br>
@@ -376,13 +182,13 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -390,17 +196,17 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        &copy; Copyright <strong>qingling China 2018</strong>.
       </div>
-      <div class="credits">
-        <!--
+      <!-- <div class="credits">
+        '''
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
+        '''
         Best <a href="">Bootstrap Templates</a> by BootstrapMade
-      </div>
+      </div> -->
     </div>
   </footer><!-- #footer -->
    <!-- JavaScript Libraries -->
@@ -420,24 +226,16 @@
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-  <script src="PgwSlideshow/pgwslideshow.js"></script>
-  <script src="PgwSlideshow/pgwslideshow.min.js">
-
-  </script>
-
+  <script src="js/pgwslideshow.js"></script>
+  <script src="js/pgwslideshow.min.js"></script>
   <!-- Template Main Javascript File -->
   <!-- <script src="js/main.js"></script> -->
   <script src="js/apps.min.js"></script>
   <script>
       $(document).ready(function() {
           App.init();
+
           console.log("App is running");
-          $.getJSON("data/data.json",function(result){
-            console.log(result)
-          });
-
-    $('.pgwSlideshow').pgwSlideshow();
-
       });
   </script>
 <script>
