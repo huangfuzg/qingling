@@ -90,23 +90,34 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
+    let name = $("#name").val();
+    let subject = $("#subject").val();
+    let email = $("#email").val();
+    let context = $("#context").val();
+    let data = {name:name,subject:subject,email:email,context:context};
+    console.log("POST");
     $.ajax({
-      type: "POST",
-      url: "contactform/contactform.php",
-      data: str,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
-
+      url:"http://localhost:8000/sendMail",
+      type:"POST",
+      dataType:"json",
+      data:JSON.stringify(data),
+      success:function(data)
+      {
+        console.log(data);
+        if (data.success == 'OK') {
+        $("#sendmessage").addClass("show");
+        $("#errormessage").removeClass("show");
+        $('.contactForm').find("input, textarea").val("");
+      } else {
+        $("#sendmessage").removeClass("show");
+        $("#errormessage").addClass("show");
+        $('#errormessage').html(data.msg);
       }
+      },
+      error: function(e)
+      {
+        console.log(e);
+      },
     });
     return false;
   });
