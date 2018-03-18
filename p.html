@@ -24,7 +24,6 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
@@ -61,11 +60,27 @@
       padding: 0 0 15px;
       line-height: 20px;
   }
-  @media (max-width: 768px) {
-  .image img{
-    width: 100%
-  } 
-}
+    @media (max-width: 768px) {
+    h3 {
+      font-size: 17px;
+    }
+    .product-desc .image {
+    padding-right: 40px !important;
+    width: 100%;
+    padding-left: 0;
+    }
+    .product-desc .desc {
+      float: left !important;
+      width: 100%;
+      padding-left: 0 !important;
+    }
+    .product-desc.right .image {
+        float: right;
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
+
   </style>
 </head>
 
@@ -152,10 +167,10 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Products</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Contact</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#portfolio">Products</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#contact">Contact</a></li>
               <!-- <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
