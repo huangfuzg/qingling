@@ -13,6 +13,10 @@ app.get('/line',function(req,res){
 app.get('/product',function(req,res){
     res.sendFile(__dirname+'/'+"p.html");
 })
+app.get('/test',function(req,res){
+    res.sendFile(__dirname+'/'+"test.html");
+})
+
 
 var server = app.listen(8094,'0.0.0.0',function(){
     var host = server.address().address
