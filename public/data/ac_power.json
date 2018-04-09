@@ -1,6 +1,6 @@
 [{
 	"id":"00",
-	"name":"china_ac_power",
+	"name":"China ac power cord",
 
 	"china_ac_power_imgs": [
 		"/imgs/ac_power/china_ac_power/picture/model1.jpg",
@@ -65,7 +65,7 @@
 },
 {
 	"id":"01",
-	"name":"europe_ac_power",
+	"name":"Europe ac power cord",
 
 	"europe_ac_power_imgs": [
 		"/imgs/ac_power/europe_ac_power/picture/model1.jpg",
@@ -139,7 +139,7 @@
 },
 {
 	"id":"02",
-	"name":"italy_ac_power",
+	"name":"Italy ac power cord",
 
 	"italy_ac_power_imgs": [
 		"/imgs/ac_power/italy_ac_power/picture/model1.jpg"],
@@ -156,7 +156,7 @@
 },
 {
 	"id":"03",
-	"name":"brazil_ac_power",
+	"name":"Brazil ac power cord",
 
 	"brazil_ac_power_imgs": [
 		"/imgs/ac_power/brazil_ac_power/picture/model1.jpg",
@@ -195,7 +195,7 @@
 },
 {
 	"id":"04",
-	"name":"usa_ac_power",
+	"name":"America ac power cord",
 
 	"usa_ac_power_imgs": [
 		"/imgs/ac_power/usa_ac_power/picture/model1.jpg",
@@ -267,7 +267,7 @@
 },
 {
 	"id":"05",
-	"name":"japan_ac_power",
+	"name":"Japan ac power cord",
 
 	"japan_ac_power_imgs": [
 		"/imgs/ac_power/japan_ac_power/picture/model1.jpg"],
@@ -288,7 +288,7 @@
 },
 {
 	"id":"06",
-	"name":"isu_ac_power",
+	"name":"Isu ac power cord",
 
 	"isu_ac_power_imgs": [
 		"/imgs/ac_power/isu_ac_power/picture/model1.jpg",
@@ -325,7 +325,7 @@
 },
 {
 	"id":"07",
-	"name":"australia_ac_power",
+	"name":"Australia ac power cord",
 
 	"australia_ac_power_imgs": [],
 

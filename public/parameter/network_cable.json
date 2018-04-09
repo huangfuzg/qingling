@@ -1,5 +1,5 @@
 [{
-	"id":"00",
+	"id":"01",
 	"name":"S/FTP CAT6 PATCH CORD",
 
 	"parameter": [
@@ -19,7 +19,7 @@
 		{"Shielding":""}]
  },
  {
-	"id":"01",
+	"id":"00",
 	"name":"S/FTP CAT7 PATCH CORD",
 
 	"parameter": [
@@ -126,7 +126,8 @@
 	"id":"06",
 	"name":"VGA CABLE",
 
-	"parameter": [
+	"parameter": 
+	[
 		{"Item":"1 in 2 out vga Y splitter"},
 		{"Connector":"Nickel-Plated and Gold Plated(optional)"},
 		{"Conductor":"Copper,Tinned Cooper,CCS"},
@@ -140,6 +141,7 @@
 		{"Packaging":"PE Bag/Blister"},
 		{"Supported resolutions":"1024x768,1280x1024,1600x1200,1680x1050,and 1080P (Full HD)"},
 		{"Certificate":"CE,FCC"},
-		{"Application":"PC,computer to projector,plasma TV,LCD or CRT monitor,flat-panel receiver etc."}]
- },
+		{"Application":"PC,computer to projector,plasma TV,LCD or CRT monitor,flat-panel receiver etc."}
+	]
+ }
 ]
