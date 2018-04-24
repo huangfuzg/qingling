@@ -32,6 +32,8 @@
   <link href="css/pgwslideshow.css" rel="stylesheet">
   <link href="css/pgwslideshow.min.css" rel="stylesheet">
   <link rel='stylesheet' href='sfq/css/style.css'>
+  <link rel="stylesheet" type="text/css" href="jQuerySwipeslider/css/style.css">
+  <link rel="stylesheet" type="text/css" href="jQuerySwipeslider/dist/swipeslider.css">
   <style>
     #header{
       position: relative;
@@ -82,14 +84,20 @@
         padding: 0 0 15px;
         line-height: 20px;
     }
+    table{table-layout:fixed;word-wrap:break-word;}
     .hiden{
       display: none;
     }
     .image1 img{
         border: 1px solid #c7c0c0;
-        height: 50%;
+        width: 100%;
+        /*height: 500px;*/
         margin: 0 auto;
       }
+    .linepic{
+      max-width: 100%;
+      width: 100%;
+    }
     @media (max-width: 767px) {
       
       .pgwSlideshow .ps-current>ul>li img {
@@ -182,8 +190,9 @@
                     <!-- BEGIN search-content -->
                     <div class="search-content">
                         <!-- BEGIN search-toolbar -->
-                        <div class="search-toolbar">
-                        </div>
+                        <!-- <div class="search-toolbar">
+                          
+                        </div> -->
                         <!-- END search-toolbar -->
                         <!-- BEGIN search-item-container -->
                         <div class="search-item-container">
@@ -205,6 +214,10 @@
                                   <!-- BEGIN #product-tab-content -->
                                   <div id="product-tab-content" class="tab-content">
                                       <!-- BEGIN #product-desc -->
+                                      <figure id="full_feature" class="swipslider">
+                                        <ul class="sw-slides">
+                                         
+                                      </figure>
                                       <div class="tab-pane fade active in" id="product-desc">
                                           <!-- <div class="item-row">
                                               <div class="item item-thumbnail">
@@ -527,6 +540,7 @@
   <script src="js/pgwslideshow.js"></script>
   <script src="js/pgwslideshow.min.js"></script>
   <script  src="sfq/js/index.js"></script>
+  <script type="text/javascript" src="jQuerySwipeslider/dist/swipeslider.min.js"></script>
   <!-- Template Main Javascript File -->
   <!-- <script src="js/main.js"></script> -->
   <script src="js/apps.min.js"></script>
@@ -534,6 +548,7 @@
       $(document).ready(function() {
           App.init_pc();
           //$('.pgwSlideshow').pgwSlideshow();
+          
           console.log("Test is running");
       });
   </script>
