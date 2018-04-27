@@ -407,7 +407,7 @@
 				},
 				{
 					"name":"H03VV-F",
-					"img":["H03VV-F.png"],
+					"img":["H03VV-F.png","H05VV-F.png"],
 					"others":[{
 						"core":"2",
 						"section(mm²)":"0.5",
@@ -527,7 +527,7 @@
 				},
 				{
 					"name":"H05VV-F",
-					"img":["H05VV-F.png"],
+					"img":["H05VV-F.png","H03VV-F.png"],
 					"others":[{
 						"core":"2",
 						"section(mm²)":"0.75",
@@ -593,95 +593,7 @@
 						"OD(mm)":"8.4"
 					}]
 				}]
-				},
-				{
-			"name":"Flat soft cable",
-			"standard":"GB5023.5-1997",
-			"model":["227 IE C42(RVB)"],
-			"currentVoltage":["300/300V"],
-			"application":["Small housing electrical instruments and light"],
-			"modelParams":[
-			{
-				"name":"227 IEC 42(RVB)",
-				"img":["227-IEC-42(RVB).png"],
-				"others":[{
-					"core":"2",
-					"section(mm²)":"0.5",
-					"structure(No./mm)":"28/0.15",
-					"Insulation thickness(mm)":"0.8",
-					"Jacket thickness(mm)":"",
-					"OD(mm)":"2.7X5.4"
-				},
-				{
-					"core":"2",
-					"section(mm²)":"0.75",
-					"structure(No./mm)":"42/0.15",
-					"Insulation thickness(mm)":"0.8",
-					"Jacket thickness(mm)":"",
-					"OD(mm)":"2.9X5.8"
 				}]
-			}]
-		},
-		{
-			"name":"Soft jacket cable",
-			"standard":"GB5023.5-1997",
-			"model":["227 IEC 52(RVV)"],
-			"currentVoltage":["227 IEC 52(RVV)300/300V"],
-			"application":["227 IEC 52(RVV) housing electrical instruments and light"],
-			"modelParams":[
-				{
-					"name":"227 IEC 52(RVV)",
-					"img":["227-IEC-52(RVV)-flat.png","227-IEC-52(RVV)-round1.png","227-IEC-52(RVV)-round2.png"],
-					"others":[{
-						"core":"2",
-						"section(mm²)":"0.5",
-						"structure(No./mm)":"28/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"5.3"
-					},
-					{
-						"core":"2",
-						"section(mm²)":"0.5",
-						"structure(No./mm)":"28/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"3.26X5.3"
-					},
-					{
-						"core":"2",
-						"section(mm²)":"0.75",
-						"structure(No./mm)":"42/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"5.7"
-					},
-					{
-						"core":"2",
-						"section(mm²)":"0.75",
-						"structure(No./mm)":"42/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"3.4X5.8"
-					},
-					{
-						"core":"3",
-						"section(mm²)":"0.5",
-						"structure(No./mm)":"28/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"5.6"
-					},
-					{
-						"core":"3",
-						"section(mm²)":"0.75",
-						"structure(No./mm)":"42/0.15",
-						"Insulation thickness(mm)":"0.5",
-						"Jacket thickness(mm)":"0.6",
-						"OD(mm)":"6.05"
-					}]
-				}]
-			}]
 	},
 	{
 		"id":"02",
