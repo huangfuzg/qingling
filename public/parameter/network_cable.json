@@ -23,17 +23,17 @@
 	"name":"S/FTP CAT7 PATCH CORD",
 
 	"parameter": [
-		{"Standard":""}, 
-		{"Connector":""},
-		{"Wire No":""},
-		{"Color":""},
-		{"Length":""},
-		{"Suit cable":""},
-		{"Certificate":""},
-		{"Shield":""},
-		{"Stretching Resistance":""},
-		{"Impedance":""},
-		{"Working Capacitance(Max.)":""},
+		{"Standard":"10GBBASE-T"}, 
+		{"Connector":"RJ45"},
+		{"Wire No":"8P8C"},
+		{"Color":"Optional color"},
+		{"Length":"0.5m/1m/2m/3m/5m/10m/15m"},
+		{"Suit cable":"32awg,28AWG,4*2/7*0.16mm,4*2*7/0.2mm"},
+		{"Certificate":"CE ROHS Approved"},
+		{"Shield":"Nylon Braid Shielded"},
+		{"Stretching Resistance":"(max)250N"},
+		{"Impedance":"100 ±15%W @ 1~100MHz"},
+		{"Working Capacitance(Max.)":"5.4nF/100m"},
 		{"Insulation Resistance":""},
 		{"Operating Temperature":""},
 		{"Shielding":""}]
@@ -124,6 +124,30 @@
  },
  {
 	"id":"06",
+	"name":"Outdoor waterproof cat6 cable",
+
+	"parameter": [
+		{"Conductor Size":"23AWG 0.56MM 0.57MM 0.58MM"},
+		{"Conductor Material":"CCA/CCU/BC"},
+		{"Number Of Conductor":"4P"},
+		{"Shield":"UTP/FTP/SFTP"},
+		{"Flammability Grade":"CMP,CMX,CM,CMG,MPG,CMR,MPR"},
+		{"Indoor/Outdoor":"Single jacket/Double jacket"},
+		{"Insulation Material":"HDPE,PE"},
+		{"Insulation Thickness":"1.02mm"},
+		{"Jacket Material":"PVC,ROHS PVC,LSZH PVC"},
+		{"Outer Jacket Thickness":"6.2mm"},
+		{"DC Resistance(Max.)":"9.5 Ohm/100m"},
+		{"DC Resistance Imbalance":"2.50%"},
+		{"Working Capacitance(Max.)":"5.4nF/100m"},
+		{"Insulation Resistance":"10000 MW.km"},
+		{"Transmission Velocity":"65%"},
+		{"Operating Temperature":"-40 °C - +75 °C"},
+		{"PVC Jacket Color":"Optional color"},
+		{"Marking On Jacket":"QL or OEM"}]
+ },
+ {
+	"id":"07",
 	"name":"VGA CABLE",
 
 	"parameter": 
