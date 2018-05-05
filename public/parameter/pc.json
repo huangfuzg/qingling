@@ -48,7 +48,7 @@
 			},
 			{
 				"drawing":"Chinapowercord-5-drawing.png",
-				"picture":"",
+				"picture":"Chinapowercord-5-picture.png",
 				"cabels":[
 					"227IEC52（RVV）3×0.5mm²   6A250V",
 					"227IEC52（RVV）3×0.75mm²  6A250V",
@@ -311,7 +311,7 @@
 			},
 			{
 				"drawing":"Europepowercord-4-drawing.png",
-				"picture":"",
+				"picture":"Europepowercord-4-picture.png",
 				"cabels":[
 					"H03VVH2 -F 2X0.5mm² 2.5A250V",
 					"H03VVH2 -F 2X0.75mm² 2.5A250V",
@@ -767,7 +767,7 @@
 			},
 			{
 				"drawing":"Brazilpowercord-3-drawing.png",
-				"picture":"",
+				"picture":"Brazilpowercord-3-picture.png",
 				"cabels":[
 					"227IEC52(RVV) 3X0.75mm² 10A250V",
 					"227IEC53(RVV) 3X0.75mm² 10A250V",
@@ -1105,7 +1105,7 @@
 		"cable":[{
 			"name":"America power cable",
 			"standard":"UL62",
-			"model":["SPT-1","SPT-2","SPT-3","NISPT-2","SVT","ST","SJT"],
+			"model":["SPT-1","SPT-2","SPT-3","NISPT-1","NISPT-2","SVT","ST","SJT"],
 			"currentVoltage":["300V","600V(ST)"],
 			"temperature":"60°C/105°C",
 			"application":["Housing electrical instruments"],
