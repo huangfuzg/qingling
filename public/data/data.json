@@ -3,9 +3,9 @@
 	"name":"china_ac_power",
 
 	"china_ac_power_imgs": [
-		"/imgs/ac_power/china_ac_power/picture/model1.jpg",
-		"/imgs/ac_power/china_ac_power/picture/model3.jpg",
-		"/imgs/ac_power/china_ac_power/picture/model5.jpg"],
+		"/imgs/ac_power/china_ac_power/picture/Chinapowercord-1-picture.png",
+		"/imgs/ac_power/china_ac_power/picture/Chinapowercord-3-picture.png",
+		"/imgs/ac_power/china_ac_power/picture/Chinapowercord-5-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/china_ac_power/model/model1.jpg",
@@ -68,9 +68,8 @@
 	"name":"europe_ac_power",
 
 	"europe_ac_power_imgs": [
-		"/imgs/ac_power/europe_ac_power/picture/model1.jpg",
-		"/imgs/ac_power/europe_ac_power/picture/model4.jpg",
-		"/imgs/ac_power/europe_ac_power/picture/model5.jpg"],
+		"/imgs/ac_power/europe_ac_power/picture/Europepowercord-4-picture.png",
+		"/imgs/ac_power/europe_ac_power/picture/Europepowercord-5-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/europe_ac_power/model/model1.jpg",
@@ -142,7 +141,7 @@
 	"name":"italy_ac_power",
 
 	"italy_ac_power_imgs": [
-		"/imgs/ac_power/italy_ac_power/picture/model1.jpg"],
+		"/imgs/ac_power/italy_ac_power/picture/Italypowercord-1-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/italy_ac_power/model/model1.jpg",
@@ -159,9 +158,8 @@
 	"name":"brazil_ac_power",
 
 	"brazil_ac_power_imgs": [
-		"/imgs/ac_power/brazil_ac_power/picture/model1.jpg",
-		"/imgs/ac_power/brazil_ac_power/picture/model2.jpg",
-		"/imgs/ac_power/brazil_ac_power/picture/model3.jpg"],
+		"/imgs/ac_power/brazil_ac_power/picture/Brazilpowercord-1-picture.png",
+		"/imgs/ac_power/brazil_ac_power/picture/Brazilpowercord-3-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/brazil_ac_power/model/model1.jpg",
@@ -198,12 +196,9 @@
 	"name":"usa_ac_power",
 
 	"usa_ac_power_imgs": [
-		"/imgs/ac_power/usa_ac_power/picture/model1.jpg",
-		"/imgs/ac_power/usa_ac_power/picture/model2.jpg",
-		"/imgs/ac_power/usa_ac_power/picture/model3.jpg",
-		"/imgs/ac_power/usa_ac_power/picture/model4.jpg",
-		"/imgs/ac_power/usa_ac_power/picture/model5.jpg",
-		"/imgs/ac_power/usa_ac_power/picture/model6.jpg"],
+		"/imgs/ac_power/usa_ac_power/picture/Usapowercord-1-picture.png",
+		"/imgs/ac_power/usa_ac_power/picture/Usapowercord-2-picture.png",
+		"/imgs/ac_power/usa_ac_power/picture/Usapowercord-6-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/usa_ac_power/model/model1.jpg",
@@ -270,7 +265,7 @@
 	"name":"japan_ac_power",
 
 	"japan_ac_power_imgs": [
-		"/imgs/ac_power/japan_ac_power/picture/model1.jpg"],
+		"/imgs/ac_power/japan_ac_power/picture/Japanpowercord-1-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/japan_ac_power/model/model1.jpg",
@@ -291,9 +286,9 @@
 	"name":"isu_ac_power",
 
 	"isu_ac_power_imgs": [
-		"/imgs/ac_power/isu_ac_power/picture/model1.jpg",
-		"/imgs/ac_power/isu_ac_power/picture/model2.jpg",
-		"/imgs/ac_power/isu_ac_power/picture/model3.jpg"],
+		"/imgs/ac_power/isu_ac_power/picture/ISUpowercord-1-picture.png",
+		"/imgs/ac_power/isu_ac_power/picture/ISUpowercord-2-picture.png",
+		"/imgs/ac_power/isu_ac_power/picture/ISUpowercord-3-picture.png"],
 
 	"products": [{
 		"imgurl": "/imgs/ac_power/isu_ac_power/model/model1.jpg",

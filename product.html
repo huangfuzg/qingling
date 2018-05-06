@@ -31,6 +31,8 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="css/pgwslideshow.css" rel="stylesheet">
   <link href="css/pgwslideshow.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="jQuerySwipeslider/css/style.css">
+  <link rel="stylesheet" type="text/css" href="jQuerySwipeslider/dist/swipeslider.css">
   <style>
     #header{
       position: relative;
@@ -103,6 +105,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="index">Home</a></li>
           <li><a href="index#about">About Us</a></li>
+          <li><a href="index#factory">Factory Show</a></li>
           <li><a href="index#portfolio">Products</a></li>
           <li><a href="index#contact">Contact</a></li>
         </ul>
@@ -139,11 +142,17 @@
               <!-- END #product-tab -->
               <!-- BEGIN #product-tab-content -->
               <div id="product-tab-content" class="tab-content">
+                <figure id="full_feature" class="swipslider">
+                                        <ul class="sw-slides">
+                                         
+                                      </figure>
+                  <div class="tab-pane fade active in" id="product-desc">
                   <!-- BEGIN #product-desc -->
                   <div class="tab-pane fade active in" id="product-desc">
                       <!-- BEGIN product-desc -->
-
-
+                    <div class="panel-body">
+                          
+                      </div>
                       <!-- END product-desc -->
                   </div>
                   <!-- END #product-desc -->
@@ -169,10 +178,11 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Products</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contact</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#factory">Factory show</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#portfolio">Products</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#contact">Contact</a></li>
               <!-- <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
@@ -246,12 +256,13 @@
   <script src="contactform/contactform.js"></script>
   <script src="js/pgwslideshow.js"></script>
   <script src="js/pgwslideshow.min.js"></script>
+  <script type="text/javascript" src="jQuerySwipeslider/dist/swipeslider.min.js"></script>
   <!-- Template Main Javascript File -->
   <!-- <script src="js/main.js"></script> -->
   <script src="js/apps.min.js"></script>
   <script>
       $(document).ready(function() {
-          App.initline();
+          App.init_mother();
 
           console.log("App is running");
       });

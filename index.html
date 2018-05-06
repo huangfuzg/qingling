@@ -26,7 +26,10 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="factoryshow/css/blueimp-gallery.css">
+  <link rel="stylesheet" href="factoryshow/css/blueimp-gallery-indicator.css">
+  <link rel="stylesheet" href="factoryshow/css/blueimp-gallery-video.css">
+  <link rel="stylesheet" href="factoryshow/css/demo.css">
 
 </head>
 
@@ -49,6 +52,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#factory">Factory Show</a></li>
           <li><a href="#portfolio">Products</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -130,7 +134,23 @@
 
       </div>
     </section><!-- #about -->
+    <section id="factory"  class="wow fadeIn">
+      <div class="container">
 
+        <header class="section-header">
+          <h3>Factory Show</h3>
+          <p>We are a professional cable and power cord manufacture in China,which both have manufacturing shop,scientific process of producing,separated management system in factory,and have advanced machine for doing kinds of testing,the quality of products can be guaranteed seriously.The best quality,the senior technology,the professional producing system,and the best service,which are our belief.welcome to contact us,and visit our factory.</p>
+        </header>
+        <div id="blueimp-video-carousel" style="width: 80%;height: auto;" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="play-pause"></a>
+        </div>
+        
+      </div>
+    </section><!-- #facts -->
     <!--==========================
       Portfolio Section
     ============================-->
@@ -311,8 +331,8 @@
               <div class="portfolio-wrap">
                 <img src="img/product/AC POWER CORD/UK ac power cord.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4><a href="#">UK ac power cord</a></h4>
-                  <p>UK ac power cord</p>
+                  <h4><a href="#">Isreal/Africa/Uk ac power cord</a></h4>
+                  <p>Isreal/Africa/Uk ac power cord</p>
                 </div>
               </div>
             </div>
@@ -827,6 +847,7 @@
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#factory">Factory show</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Products</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contact</a></li>
               <!-- <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li> -->
@@ -902,49 +923,58 @@
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
+  <script src="factoryshow/js/blueimp-helper.js"></script>
+  <script src="factoryshow/js/blueimp-gallery.js"></script>
+  <script src="factoryshow/js/blueimp-gallery-fullscreen.js"></script>
+  <script src="factoryshow/js/blueimp-gallery-indicator.js"></script>
+  <script src="factoryshow/js/blueimp-gallery-video.js"></script>
+  <script src="factoryshow/js/blueimp-gallery-vimeo.js"></script>
+  <script src="factoryshow/js/blueimp-gallery-youtube.js"></script>
+  <script src="factoryshow/js/jquery.blueimp-gallery.js"></script>
+  <script src="factoryshow/js/demo.js"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   <script type="text/javascript">
-    function go(name,type){
+    function go(name,type,cata){
       if(name==""){
-        window.location.href='product?type='+type;
+        window.location.href='powercord?type='+type+'&cata='+cata;
       }
       else{
-        window.location.href='line?type='+type+'&pname='+name;
+        window.location.href='product?type='+type+'&pname='+name+'&cata='+cata;
       }
     }
     $(".portfolio-wrap").click(function(){
       var name = $("a",this).text();
+      //console.log(name);
       var name_id = {
-        "America ac power cord":{"id":"04","pname":""},
-        "Australia ac power cord":{"id":"07","pname":""},
-        "UK ac power cord":{"id":"06","pname":""},
-        "Europe ac power cord":{"id":"01","pname":""},
-        "Brazil ac power cord":{"id":"03","pname":""},
-        "Japan ac power cord":{"id":"05","pname":""},
-        "China ac power cord":{"id":"00","pname":""},
-        "Italy ac power cord":{"id":"00","pname":""},
-      "S/FTP CAT7":{"id":"00","pname":"network_cable"},
-      "S/FTP CAT6":{"id":"01","pname":"network_cable"},
-      "UTP CAT6":{"id":"02","pname":"network_cable"},
-      "UTP CAT5":{"id":"03","pname":"network_cable"},
-      "Telephone CAT3":{"id":"04","pname":"network_cable"},
-      "UTP CAT6 cable":{"id":"05","pname":"network_cable"},
-      "Switch":{"id":"00","pname":"switch"},
-      "VGA cable":{"id":"00","pname":"VGA"},
-      "EU Salt Lamp power cord":{"id":"00","pname":"slpc"},
-      "UK Salt Lamp power cord":{"id":"02","pname":"slpc"},
-      "USA Salt Lamp power cord":{"id":"01","pname":"slpc"},
-      "Korea Salt Lamp power cord":{"id":"04","pname":"slpc"},
-      "AUS Salt Lamp power cord":{"id":"03","pname":"slpc"},
-      "QL-116":{"id":"00","pname":"wtca"},
-      "QL-C102":{"id":"01","pname":"wtca"},
-      "QL-103":{"id":"02","pname":"wtca"},
-      "QL-104":{"id":"03","pname":"wtca"}};
+        "America ac power cord":{"id":"04","pname":"","cata":"AC POWER CORD"},
+        "Australia ac power cord":{"id":"07","pname":"","cata":"AC POWER CORD"},
+        "Isreal/Africa/Uk ac power cord":{"id":"06","pname":"","cata":"AC POWER CORD"},
+        "Europe ac power cord":{"id":"01","pname":"","cata":"AC POWER CORD"},
+        "Brazil ac power cord":{"id":"03","pname":"","cata":"AC POWER CORD"},
+        "Japan ac power cord":{"id":"05","pname":"","cata":"AC POWER CORD"},
+        "China ac power cord":{"id":"00","pname":"","cata":"AC POWER CORD"},
+        "Italy ac power cord":{"id":"02","pname":"","cata":"AC POWER CORD"},
+      "S/FTP CAT7":{"id":"00","pname":"network_cable","cata":"CABLE"},
+      "S/FTP CAT6":{"id":"01","pname":"network_cable","cata":"CABLE"},
+      "UTP CAT6":{"id":"02","pname":"network_cable","cata":"CABLE"},
+      "UTP CAT5E":{"id":"03","pname":"network_cable","cata":"CABLE"},
+      "Telephone CAT3":{"id":"04","pname":"network_cable","cata":"CABLE"},
+      "UTP CAT6 cable":{"id":"05","pname":"network_cable","cata":"CABLE"},
+      "Switch":{"id":"00","pname":"switch","cata":"ELECTRICAL SWITCH"},
+      "VGA cable":{"id":"06","pname":"network_cable","cata":"CABLE"},
+      "EU Salt Lamp power cord":{"id":"00","pname":"slpc","cata":"SALT POWER CORD"},
+      "USA Salt Lamp power cord":{"id":"01","pname":"slpc","cata":"SALT POWER CORD"},
+      "UK Salt Lamp power cord":{"id":"02","pname":"slpc","cata":"SALT POWER CORD"},  
+      "Korea Salt Lamp power cord":{"id":"04","pname":"slpc","cata":"SALT POWER CORD"},
+      "AUS Salt Lamp power cord":{"id":"03","pname":"slpc","cata":"SALT POWER CORD"},
+      "QL-116":{"id":"00","pname":"wtca","cata":"TRAVEL ADAPTER"},
+      "QL-C102":{"id":"01","pname":"wtca","cata":"TRAVEL ADAPTER"},
+      "QL-103":{"id":"02","pname":"wtca","cata":"TRAVEL ADAPTER"},
+      "QL-104":{"id":"03","pname":"wtca","cata":"TRAVEL ADAPTER"}};
       // console.log(name);
       // console.log(name_id[name]["pname"]);
-      go(name_id[name]["pname"],name_id[name]["id"]);
+      go(name_id[name]["pname"],name_id[name]["id"],name_id[name]["cata"]);
     })
   </script>
 </body>

@@ -7,11 +7,20 @@ app.get('/',function(req,res){
 app.get('/index',function(req,res){
     res.sendFile(__dirname+'/'+"index.html");
 })
-app.get('/line',function(req,res){
-    res.sendFile(__dirname+'/'+"product.html");
-})
+// app.get('/line',function(req,res){
+//     res.sendFile(__dirname+'/'+"product.html");
+// })
 app.get('/product',function(req,res){
+    res.sendFile(__dirname+'/'+"otherproduct.html");
+})
+app.get('/powercord',function(req,res){
+    res.sendFile(__dirname+'/'+"powercord.html");
+})
+app.get('/mobile_powercord',function(req,res){
     res.sendFile(__dirname+'/'+"p.html");
+})
+app.get('/mobile_product',function(req,res){
+    res.sendFile(__dirname+'/'+"product.html");
 })
 
 var server = app.listen(8094,'0.0.0.0',function(){
