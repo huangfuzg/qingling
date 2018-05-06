@@ -84,5 +84,14 @@
 		"/imgs/VGA CABLE/imgs/1.jpg"],
 
 	"parameter": [""]
+},
+{
+	"id":"08",
+	"name":"High Temperature Teflon cable wire",
+
+	"imgurl": [
+		"/imgs/High Temperature Teflon cable wire/imgs/1.jpg"],
+
+	"parameter": [""]
 }
 ]

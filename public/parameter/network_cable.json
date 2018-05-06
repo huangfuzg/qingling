@@ -167,5 +167,24 @@
 		{"Certificate":"CE,FCC"},
 		{"Application":"PC,computer to projector,plasma TV,LCD or CRT monitor,flat-panel receiver etc."}
 	]
+ },
+ {
+	"id":"08",
+	"name":"High Temperature Teflon cable wire",
+
+	"parameter": 
+	[
+		{"Product implementation standards":"UL758,UL1330,UL5230,UL1745"},
+		{"Size":"32AWG~2AWG"},
+		{"Rated Voltage":"600V"},
+		{"Rated Temperature":"-100°C~+200°C"},
+		{"Conductor":"tinned, silver or Nickel copper"},
+		{"Insulation":"FEP teflon"},
+		{"Color":"red / yellow / blue / white / black / yellow green / brown / orange / purple / green / etc"},
+		{"Product  features":"excellent resistance to high temperature, low temperature resistance, excellent electrical insulation performance high voltage resistance, aging resistance, long service life and soft and easy to install"},
+		{"Applications":["Widely used in lighting,household appliances,lamps",
+						 "electric appliances, instrumentation, motor wiring and electronics",
+						 "gas appliances and other high-temperature environment"]}
+	]
  }
 ]
