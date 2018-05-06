@@ -1693,3 +1693,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	min-height:300px;
 	border:none;
 }
+.img-fluid{
+  width:340px !important;
+  height:255px !important;
+}
