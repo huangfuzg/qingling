@@ -19,8 +19,7 @@
 		"/imgs/slpc/usa_slpc/imgs/2.jpg",
 		"/imgs/slpc/usa_slpc/imgs/3.jpg",
 		"/imgs/slpc/usa_slpc/imgs/4.jpg",
-		"/imgs/slpc/usa_slpc/imgs/5.jpg",
-		"/imgs/slpc/usa_slpc/imgs/6.jpg"],
+		"/imgs/slpc/usa_slpc/imgs/5.jpg"],
 
 	"parameter": ["/imgs/slpc/usa_slpc/parameter/1.jpg"]
 },
@@ -39,9 +38,7 @@
 	"name":"AUS Salt Lamp power cord",
 
 	"imgurl": [
-		"/imgs/slpc/australia_slpc/imgs/1.jpg",
-		"/imgs/slpc/australia_slpc/imgs/2.jpg",
-		"/imgs/slpc/australia_slpc/imgs/3.jpg"],
+		"/imgs/slpc/australia_slpc/imgs/1.jpg"],
 
 	"parameter": ["/imgs/slpc/australia_slpc/parameter/1.jpg"]
 },
