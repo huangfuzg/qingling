@@ -337,5 +337,29 @@
 		"/imgs/ac_power/australia_ac_power/line/1.jpg",
 		"/imgs/ac_power/australia_ac_power/line/2.jpg",
 		"/imgs/ac_power/australia_ac_power/line/3.jpg"]
+},
+{
+	"id":"08",
+	"name":"C13-C14 Power cord",
+
+	"C13-C14_ac_power_imgs": [],
+
+	"products": [{
+		"imgurl": "",
+		"description": [""]
+		}],
+	"line": []
+},
+{
+	"id":"09",
+	"name":"C5-C14 Power cord",
+
+	"C5-C14_ac_power_imgs": [],
+
+	"products": [{
+		"imgurl": "",
+		"description": [""]
+		}],
+	"line": []
 }
 ]
