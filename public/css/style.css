@@ -923,14 +923,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Facts Section
 --------------------------------*/
-#facts {
+#factory {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
 }
 
-#facts::before {
+#factory::before {
   content: '';
   position: absolute;
   left: 0;
@@ -941,12 +941,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#facts .container {
+#factory .container {
   position: relative;
   z-index: 10;
 }
 
-#facts .counters span {
+#factory .counters span {
   /* font-family: "Montserrat", sans-serif; */
   /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
   font-family: Arial;
@@ -956,7 +956,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:  #2c4cd4;
 }
 
-#facts .counters p {
+#factory .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   /* font-family: "Montserrat", sans-serif; */
@@ -966,7 +966,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
-#facts .facts-img {
+#factory .facts-img {
   text-align: center;
   padding-top: 30px;
 }

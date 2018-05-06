@@ -38,7 +38,11 @@
 
 	"imgurl": [
 		"/imgs/network_cable/UTP CAT5E/imgs/1.jpg",
-		"/imgs/network_cable/UTP CAT5E/imgs/2.jpg"],
+		"/imgs/network_cable/UTP CAT5E/imgs/2.jpg",
+		"/imgs/network_cable/UTP CAT5E/imgs/3.jpg",
+		"/imgs/network_cable/UTP CAT5E/imgs/4.jpg",
+		"/imgs/network_cable/UTP CAT5E/imgs/5.jpg",
+		"/imgs/network_cable/UTP CAT5E/imgs/6.jpg"],
 
 	"parameter": ["/imgs/network_cable/UTP CAT5E/parameter/1.jpg"]
 },
@@ -48,18 +52,37 @@
 
 	"imgurl": [
 		"/imgs/network_cable/Telephone CAT3/imgs/1.jpg",
-		"/imgs/network_cable/Telephone CAT3/imgs/2.jpg",
-		"/imgs/network_cable/Telephone CAT3/imgs/3.jpg"],
+		"/imgs/network_cable/Telephone CAT3/imgs/2.jpg"],
 
 	"parameter": ["/imgs/network_cable/Telephone CAT3/parameter/1.jpg"]
 },
 {
 	"id":"05",
-	"name":"UTP cat6 cable",
+	"name":"UTP CAT6 cable",
 
 	"imgurl": [
-		"/imgs/network_cable/UTP cat6 cable/imgs/1.jpg"],
+		"/imgs/network_cable/UTP cat6 cable/imgs/1.jpg",
+		"/imgs/network_cable/UTP cat6 cable/imgs/2.jpg"],
 
 	"parameter": ["/imgs/network_cable/UTP cat6 cable/parameter/1.jpg"]
+},
+{
+	"id":"06",
+	"name":"Outdoor waterproof cat6 cable",
+
+	"imgurl": [
+		"/imgs/network_cable/Outdoor waterproof cat6 cable/imgs/1.jpg",
+		"/imgs/network_cable/Outdoor waterproof cat6 cable/imgs/2.jpg"],
+
+	"parameter": [""]
+},
+{
+	"id":"07",
+	"name":"VGA CABLE",
+
+	"imgurl": [
+		"/imgs/VGA CABLE/imgs/1.jpg"],
+
+	"parameter": [""]
 }
 ]

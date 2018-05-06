@@ -1,0 +1,85 @@
+[{
+	"id":"00",
+	"name":"QL-116",
+
+	"parameter": [
+		{"Model":""},
+		{"Name":""},
+		{"Size":""},
+		{"Weight":""},
+		{"Color":""},
+		{"Metal Material":""},
+		{"Plastic Material":""},
+		{"Current Voltage":""},
+		{"Watt":"1500W"},
+		{"Plug Type":""},
+		{"Application District":""},
+		{"Certification":""},
+		{"USB Output":""},
+		{"iPhone Output":""},
+		{"Produce Ability":""}]
+ },
+ {
+	"id":"01",
+	"name":"QL-C102",
+
+	"parameter": [
+		{"Model":"C102"},
+		{"Name":"USB travel charge adapter"},
+		{"Size":"64*50*70MM"},
+		{"Weight":"120g/piece"},
+		{"Color":"Black/White"},
+		{"Metal Material":"copper"},
+		{"Plastic Material":"ABS+PC"},
+		{"Current Voltage":"100~264V 6A"},
+		{"Watt":"3000W"},
+		{"Plug Type":"China、Europe、UK"},
+		{"Application District":"More than 150 countries"},
+		{"Certification":"CE、FCC、ROHS"},
+		{"USB Output":"5V/1000mA and 5V/2100mA"},
+		{"iPhone Output":"iPod,iPhone,iPad"},
+		{"Produce Ability":"1000000pcs/Month"}]
+ },
+ {
+	"id":"02",
+	"name":"QL-103",
+
+	"parameter": [
+		{"Model":"AE-803-805"},
+		{"Name":"USB travel charge adapter"},
+		{"Size":"61*45*56mm"},
+		{"Weight":"106g/piece"},
+		{"Color":"Black/White"},
+		{"Metal Material":"copper"},
+		{"Plastic Material":"ABS+PC"},
+		{"Current Voltage":"100~264V 6A"},
+		{"Watt":"1500W"},
+		{"Plug Type":"China、USA、Europe、UK"},
+		{"Application District":"More than 150 countries"},
+		{"Certification":"CE、FCC、ROHS"},
+		{"USB Output":"5V/1000mA and 5V/2100mA"},
+		{"iPhone Output":"iPod,iPhone,iPad"},
+		{"Produce Ability":"1000000pcs/Month"}]
+ },
+ {
+	"id":"03",
+	"name":"QL-104",
+
+	"parameter": [
+		{"Model":"AE-803-805"},
+		{"Name":"USB travel charge adapter"},
+		{"Size":"61*45*56mm"},
+		{"Weight":"106g/piece"},
+		{"Color":"Black/White"},
+		{"Metal Material":"copper"},
+		{"Plastic Material":"ABS+PC"},
+		{"Current Voltage":"100~264V 6A"},
+		{"Watt":"1500W"},
+		{"Plug Type":"China、USA、Europe、UK"},
+		{"Application District":"More than 150 countries"},
+		{"Certification":"CE、FCC、ROHS"},
+		{"USB Output":"5V/1000mA and 5V/2100mA"},
+		{"iPhone Output":"iPod,iPhone,iPad"},
+		{"Produce Ability":"1000000pcs/Month"}]
+ }
+]
