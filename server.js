@@ -31,4 +31,4 @@ var server = app.listen(8094,'0.0.0.0',function(){
     var port = server.address().port
 
     console.log('host:',host,'port:',port);
-})
+});
