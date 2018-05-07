@@ -152,7 +152,7 @@
           <div class="col-md-6 wow fadeInUp">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <img src="img/about-mission.jpg" alt="" class="" height="auto" width="100%">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
               <h2 class="title">Our Mission</h2>
@@ -165,7 +165,7 @@
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <img src="img/about-plan.jpg" alt="" class="" height="auto" width="100%">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
               <h2 class="title">Our Services</h2>
@@ -1043,20 +1043,12 @@
   <script src="js/main.js"></script>
   <script src="js/script.js"></script>
   <script type="text/javascript">
-  var date = new Date();
-    var timer = date.getTime().toString();
-      $.ajax({
-        type:"GET",
-        url:"data/news.json?t="+timer,
-        dataType:'json',
-        success:function(res){
-          console.log(res);
-          res.forEach(function(d){
-            var txt = "<li class='one_line'><i class='ion-ios-arrow-right'></i> &nbsp;&nbsp;<span class='date'>"+d['time']+"</span><a href='#' class=''>"+d['title']+"</a></li>";
-            $("#news_title").append(txt);
-          })
-        },
-      })
+  // var date = new Date();
+  //   var timer = date.getTime().toString();
+
+      // $.getJSON("http://fruitninja.xin:8000/getNewsList?page=1"，function(res){
+      //   console.log(res);
+      // })
 
     function go(name,type,cata){
       if(name==""){

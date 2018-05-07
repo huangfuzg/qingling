@@ -24,8 +24,45 @@ function setNum(){
   }
 }
 
-function getData(){
+function getData(page){
   // setNum()
+  $.ajax({
+    type:"GET",
+    // url:"data/news.json?t="+timer,
+    url:"http://fruitninja.xin:8000/getNewsList?page="+page,
+    dataType:'json',
+    jsonpCallback:"callback",
+    success:function(res){
+      console.log(res.data);
+      $("#news_title").empty();
+      Pages = Math.ceil(res.data.newsCount/PageSize);
+      // if(Pages<5){
+      //   for(var i=0;i<5-Pages;i++){
+      //
+      //   }
+      // }
+      newPage = Pages>5 ? 5 :Pages;
+      PageList = [];
+      for(var i=0;i<newPage;i++){
+        PageList.push(i+1);
+      }
+      if(PageList.length>4){
+        if(page > 2 ){
+          var newPageList = [];
+          for(var i=(page-3);i<((page+2)>Pages?Pages:(page+2));i++){
+            newPageList.push(i+1);
+          }
+          PageList = newPageList;
+        }
+      }
+      res.data.news.forEach(function(d){
+        var txt = "<li class='one_line'><i class='ion-ios-arrow-right'></i> &nbsp;&nbsp;<span class='date'>"+d['post_time'].slice(0,10)+"</span><a href='news?news_id="+d['id']+"' class=''>"+d['title']+"</a></li>";
+        $("#news_title").append(txt);
+      })
+      setNum();
+      activePage();
+    },
+  })
 }
 
 
@@ -67,3 +104,5 @@ $("#next").click(function(){
   selectPage(curPage);
   activePage();
 });
+getData(1);
+activePage();

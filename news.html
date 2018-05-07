@@ -98,25 +98,8 @@
 
       </ul>
 
-      <div class="news">
-          <h2>title</h2>
-          <h4>2018-04-05</h4>
-          <hr style="border-top:2px solid #242a30"></hr>
-          <div class="news-content">
-            <p>
-              InSight will be the first probe to focus its investigations predominantly on the interior of the Red Planet.
+      <div class="news" id="news_content">
 
-  The static lander will put seismometers on the surface - including sensors from the UK - to feel for "Marsquakes".
-
-
-            </p>
-            <p>  These tremors should reveal how the underground rock is layered - data that can be compared with Earth to shed further light on the formation of the planets 4.6 billion years ago.
-
-              "As seismic waves travel through [Mars] they pick up information along the way; as they travel through different rocks," explained Dr Bruce Banerdt, InSight's principal investigator. "And all those wiggles you see on seismograms - scientists understand how to pull that information out. After we've gotten many, many Marsquakes from different directions, we can put together a three dimensional view of the inside of Mars."
-
-              Lift-off on an Atlas rocket from the Vandenberg Air Force Base in California is scheduled for 04:05 local time (12:05 BST) on Saturday, although forecast fog may force a delay.
-</p>
-          </div>
       </div>
     </div>
   </div>
@@ -212,6 +195,29 @@
   <script src="contactform/contactform.js"></script>
   <script src="js/pgwslideshow.js"></script>
   <script src="js/pgwslideshow.min.js"></script>
+  <script type="text/javascript">
+  function getUrlParam(name) {
+          var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+          var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+          if (r != null) return decodeURI(r[2]); return null; //返回参数值
+      };
+  var id = getUrlParam('news_id');
+  // console.log(id);
+  function getNews(id){
+    $.ajax({
+      type:"GET",
+      url:"http://fruitninja.xin:8000/getNewsDetail?news_id="+id,
+      dataType:"json",
+      success:function(res){
+        // console.log(res);
+        $("#news_content").empty();
+        var txt = "<h2>"+res.data.title+"</h2><h4>"+res.data.post_time+"</h4><hr style='border-top:2px solid #242a30'></hr><div class='news-content'>"+res.data.content+"</div>";
+        $("#news_content").append(txt);
+      }
+    })
+  };
+  getNews(id);
+  </script>
   <!-- Template Main Javascript File -->
   <!-- <script src="js/main.js"></script> -->
   <!-- <script src="js/apps.min.js"></script> -->
