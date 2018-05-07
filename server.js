@@ -19,8 +19,13 @@ app.get('/powercord',function(req,res){
 app.get('/mobile_powercord',function(req,res){
     res.sendFile(__dirname+'/'+"p.html");
 })
+<<<<<<< HEAD
+app.get('/news',function(req,res){
+    res.sendFile(__dirname+'/'+"news.html");
+=======
 app.get('/mobile_product',function(req,res){
     res.sendFile(__dirname+'/'+"product.html");
+>>>>>>> 20d343858bba963aae7fbd8528430bb99c7716d9
 })
 
 var server = app.listen(8094,'0.0.0.0',function(){
