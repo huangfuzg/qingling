@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-app.use(express.static('public'));
 app.get('/',function(req,res){
     res.sendFile(__dirname+'/'+"index.html");
 })
@@ -25,7 +24,7 @@ app.get('/news',function(req,res){
 app.get('/mobile_product',function(req,res){
     res.sendFile(__dirname+'/'+"product.html");
 })
-
+app.use('/static',express.static('public'));
 var server = app.listen(8094,'0.0.0.0',function(){
     var host = server.address().address
     var port = server.address().port
