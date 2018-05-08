@@ -31,6 +31,7 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="css/pgwslideshow.css" rel="stylesheet">
   <link href="css/pgwslideshow.min.css" rel="stylesheet">
+  <script src=https://unpkg.com/md.js@0.2.6/md.min.js></script>
   <style>
     #header{
       position: relative;
@@ -214,7 +215,7 @@
       success:function(res){
         // console.log(res);
         $("#news_content").empty();
-        var txt = "<h2>"+res.data.title+"</h2><h4>"+res.data.post_time+"</h4><hr style='border-top:2px solid #242a30'></hr><div class='news-content'>"+res.data.content+"</div>";
+        var txt = "<h2>"+res.data.title+"</h2><h4>"+res.data.post_time+"</h4><hr style='border-top:2px solid #242a30'></hr><div class='news-content'>"+md(res.data.content)+"</div>";
         $("#news_content").append(txt);
       }
     })
