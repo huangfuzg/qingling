@@ -60,31 +60,31 @@ $(function () {
     blueimp.Gallery([
         {
             title: 'Video1',
-            href: 'factoryshow/img/1.mp4',
+            href: 'static/factoryshow/img/1.mp4',
             type: 'video/mp4',
-            poster: 'factoryshow/img/factory1.jpg'
+            poster: 'static/factoryshow/img/factory1.jpg'
         },
         {
             title: 'Video2',
-            href: 'factoryshow/img/2.mp4',
+            href: 'static/factoryshow/img/2.mp4',
             type: 'video/mp4',
             poster: 'https://i.imgur.com/MUSw4Zu.jpg'
         },
         {
             title: 'Video3',
-            href: 'factoryshow/img/3.mp4',
+            href: 'static/factoryshow/img/3.mp4',
             type: 'video/mp4',
             poster: 'https://i.imgur.com/MUSw4Zu.jpg'
         },
         {
             title: 'Video4',
-            href: 'factoryshow/img/4.mp4',
+            href: 'static/factoryshow/img/4.mp4',
             type: 'video/mp4',
             poster: 'https://i.imgur.com/MUSw4Zu.jpg'
         },
         {
             title: 'Video5',
-            href: 'factoryshow/img/5.mp4',
+            href: 'static/factoryshow/img/5.mp4',
             type: 'video/mp4',
             poster: 'https://i.imgur.com/MUSw4Zu.jpg'
         },
