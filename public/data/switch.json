@@ -16,4 +16,31 @@
 		"/imgs/switch/11.jpg",
 		"/imgs/switch/12.jpg",
 		"/imgs/switch/13.jpg"]
+},
+{
+	"id":"01",
+	"name":"KCD1",
+
+	"imgurl": [
+		"/imgs/switch/KCD1.png"]
+},
+{
+	"id":"02",
+	"name":"KCD2",
+
+	"imgurl": [
+		"/imgs/switch/KCD2.png"
+	]
+},{
+	"id":"03",
+	"name":"KCD3",
+
+	"imgurl": [
+		"/imgs/switch/KCD3.png"]
+},{
+	"id":"04",
+	"name":"KCD8",
+
+	"imgurl": [
+		"/imgs/switch/KCD8.png"]
 }]
