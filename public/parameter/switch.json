@@ -1,0 +1,31 @@
+[{
+	"id":"00",
+	"name":"Switch",
+
+	"parameter": []
+ },
+ {
+	"id":"01",
+	"name":"KCD1",
+
+	"para": ["data/imgs/switch/parameter/KCD1.jpg"]
+ },
+ {
+	"id":"02",
+	"name":"KCD2",
+
+	"para": ["data/imgs/switch/parameter/KCD2.jpg"]
+ },
+ {
+	"id":"03",
+	"name":"KCD3",
+
+	"para": ["data/imgs/switch/parameter/KCD3.jpg"]
+ },
+  {
+	"id":"04",
+	"name":"KCD8",
+
+	"para": ["data/imgs/switch/parameter/KCD8.jpg"]
+ }
+]
